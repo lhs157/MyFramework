@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Alamofire
+
 public protocol APIRequest {
     
     associatedtype RequestDataType
