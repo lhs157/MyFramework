@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/MyFramework"
   spec.license      = "MIT"
   spec.author             = { "Ali Akhtar" => "aliakhtarcs11020@gmail.com" }
-  spec.source       = { :path => '.' }
+  spec.source       = { :git => "https://github.com/lhs157/MyFramework.git", :branch => "main" }
   spec.source_files  = "MyFramework"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2" 
